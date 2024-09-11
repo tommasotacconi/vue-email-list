@@ -32,11 +32,12 @@
     <div id="app">
       <div class="container-lg">
         <h1>Random email list</h1>
-        <p>
-          <ul>
-            <li v-for="email in emails">{{ email }}</li>
-          </ul>
+        <p v-if="emails.length < 10">
+          <span>Waiting for the 10 emails to be received...</span>
         </p>
+        <ul v-else>
+          <li v-for="email in emails">{{ email }}</li>
+        </ul>
       </div>
     </div>
 

@@ -24,7 +24,7 @@ const { createApp } = Vue
         }
       },
     },
-    beforeMount () {
+    mounted () {
       this.getRandomEmail();
     }
   }).mount('#app')
