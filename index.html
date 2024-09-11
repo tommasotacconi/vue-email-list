@@ -27,7 +27,14 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <div id="app">
-
+      <div class="container-lg">
+        <h1>Random email list</h1>
+        <p>
+          <ul>
+            <li v-for="email in emails">{{ email }}</li>
+          </ul>
+        </p>
+      </div>
     </div>
 
     <!-- javascript connection -->

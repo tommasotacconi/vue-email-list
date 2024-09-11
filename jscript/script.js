@@ -4,7 +4,15 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Hello Vue!'
+        emails: [
+          'primaemail@primaemail.com',
+          'secondaemail@secondaiemail.com',
+          'terzaemail@terzaemail.com'
+        ],
+        apriUrl: '',
       }
+    },
+    methods: {
+
     }
   }).mount('#app')

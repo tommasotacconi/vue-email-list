@@ -50,19 +50,19 @@
   text-align: center;
 }
 
-/* type of container */
-.container-lg {
+/* type of container (non usare con bootstrap) */
+/* .container-lg {
   max-width: 900px;
   margin: 0 auto;
   min-height: var(--mh-xl);
-  /* border: 3px dashed burlywood; */
+  border: 3px dashed burlywood;
 }
 
 .container-xl {
   max-width: 1100px;
   margin: 0 auto;
   min-height: var(--mh-xxl)
-}
+} */
 
 /* type of border */
 .dashed-br{
